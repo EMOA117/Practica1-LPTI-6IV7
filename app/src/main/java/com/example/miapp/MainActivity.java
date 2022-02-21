@@ -106,7 +106,93 @@ public class MainActivity extends AppCompatActivity {
         String par3materia9 = par3mat9.getText().toString();
         String par3materia10 = par3mat10.getText().toString();
 
-
+        if (materia1.equals("")){
+            materia1 = "1";
+        }
+        if (materia2.equals("")){
+            materia2 = "1";
+        }
+        if (materia3.equals("")){
+            materia3 = "1";
+        }
+        if (materia4.equals("")){
+            materia4 = "1";
+        }
+        if (materia5.equals("")){
+            materia5 = "1";
+        }
+        if (materia6.equals("")){
+            materia6 = "1";
+        }
+        if (materia7.equals("")){
+            materia7 = "1";
+        }
+        if (materia8.equals("")){
+            materia8 = "1";
+        }
+        if (materia9.equals("")){
+            materia9 = "1";
+        }
+        if (par1materia1.equals("")){
+            par1materia1 = "1";
+        }
+        if (par1materia2.equals("")){
+            par1materia2 = "1";
+        }
+        if (par1materia3.equals("")){
+            par1materia3 = "1";
+        }
+        if (par1materia4.equals("")){
+            par1materia4 = "1";
+        }
+        if (par1materia5.equals("")){
+            par1materia5 = "1";
+        }
+        if (par1materia6.equals("")){
+            par1materia6 = "1";
+        }
+        if (par1materia7.equals("")){
+            par1materia7 = "1";
+        }
+        if (par1materia8.equals("")){
+            par1materia8 = "1";
+        }
+        if (par1materia9.equals("")){
+            par1materia9 = "1";
+        }
+        if (par1materia10.equals("")){
+            par1materia10 = "1";
+        }
+        if (par3materia1.equals("")){
+            par3materia1 = "1";
+        }
+        if (par3materia2.equals("")){
+            par3materia2 = "1";
+        }
+        if (par3materia3.equals("")){
+            par3materia3 = "1";
+        }
+        if (par3materia4.equals("")){
+            par3materia4 = "1";
+        }
+        if (par3materia5.equals("")){
+            par3materia5 = "1";
+        }
+        if (par3materia6.equals("")){
+            par3materia6 = "1";
+        }
+        if (par3materia7.equals("")){
+            par3materia7 = "1";
+        }
+        if (par3materia8.equals("")){
+            par3materia8 = "1";
+        }
+        if (par3materia9.equals("")){
+            par3materia9 = "1";
+        }
+        if (par3materia10.equals("")){
+            par3materia10 = "1";
+        }
 
         double mate1 = Double.parseDouble(materia1);
         double mate2 = Double.parseDouble(materia2);
