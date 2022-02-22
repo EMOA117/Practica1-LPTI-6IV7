@@ -1,7 +1,10 @@
 package com.example.miapp;
 
+import androidx.annotation.ColorInt;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -262,6 +265,76 @@ public class MainActivity extends AppCompatActivity {
         String resultpar3 = String.valueOf(Math.round(promedio3par));
         String semresult = String.valueOf(Math.round(promediosem));
 
+        if (promediomat1 <= 5){
+            promat1.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat1.setTextColor(Color.BLACK);
+        }
+        if (promediomat2 <= 5){
+            promat2.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat2.setTextColor(Color.BLACK);
+        }
+        if (promediomat3 <= 5){
+            promat3.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat3.setTextColor(Color.BLACK);
+        }
+        if (promediomat4 <= 5){
+            promat4.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat4.setTextColor(Color.BLACK);
+        }
+        if (promediomat5 <= 5){
+            promat5.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat5.setTextColor(Color.BLACK);
+        }
+        if (promediomat6 <= 5){
+            promat6.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat6.setTextColor(Color.BLACK);
+        }
+        if (promediomat7 <= 5){
+            promat7.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat7.setTextColor(Color.BLACK);
+        }
+        if (promediomat8 <= 5){
+            promat8.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat8.setTextColor(Color.BLACK);
+        }
+        if (promediomat9 <= 5){
+            promat9.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat9.setTextColor(Color.BLACK);
+        }
+        if (promediomat10 <= 5){
+            promat10.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            promat10.setTextColor(Color.BLACK);
+        }
+        if (promedio1par <= 5){
+            reslt.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            reslt.setTextColor(Color.BLACK);
+        }
+        if (promedio2par <= 5){
+            par1reslt.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            par1reslt.setTextColor(Color.BLACK);
+        }
+        if (promedio3par <= 5){
+            par3reslt.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            par3reslt.setTextColor(Color.BLACK);
+        }
+        if (promediosem <= 5){
+            semreslt.setTextColor(Color.parseColor("#FF0000"));
+        }else{
+            semreslt.setTextColor(Color.BLACK);
+        }
 
         reslt.setText(result);
         par1reslt.setText(resultpar2);

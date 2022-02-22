@@ -17,6 +17,7 @@
             android:layout_height="40dp"
             android:layout_marginStart="108dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="casual"
             android:text="1er Parcial"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -111,6 +112,7 @@
             android:layout_height="40dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="casual"
             android:text="3er Parcial"
             app:layout_constraintStart_toEndOf="@+id/textView13"
             app:layout_constraintTop_toTopOf="parent" />
@@ -266,6 +268,7 @@
             android:layout_height="40dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="casual"
             android:text="2do Parcial"
             app:layout_constraintStart_toEndOf="@+id/textView12"
             app:layout_constraintTop_toTopOf="parent" />
@@ -420,6 +423,7 @@
             android:layout_height="41dp"
             android:layout_marginStart="4dp"
             android:layout_marginTop="4dp"
+            android:backgroundTintMode="src_over"
             android:ems="10"
             android:focusable="false"
             android:inputType="number"
@@ -547,6 +551,7 @@
             android:layout_width="77dp"
             android:layout_height="40dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="casual"
             android:text="Promedio por Materia"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.125"
@@ -612,7 +617,8 @@
             android:layout_marginStart="136dp"
             android:layout_marginTop="8dp"
             android:autoText="false"
-            android:backgroundTint="#2F98F1"
+            android:backgroundTint="#3F51B5"
+            android:fontFamily="casual"
             android:foregroundTint="#00FFFFFF"
             android:onClick="promedio"
             android:text="Calcular"
@@ -627,6 +633,7 @@
             android:layout_height="35dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="casual"
             android:text="Fisica IV"
             android:textAlignment="center"
             android:textSize="16sp"
@@ -639,6 +646,7 @@
             android:layout_height="21dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="casual"
             android:text="LPTI IV"
             android:textAlignment="center"
             app:layout_constraintStart_toStartOf="parent"
@@ -650,6 +658,7 @@
             android:layout_height="22dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="casual"
             android:text="MAP"
             android:textAlignment="center"
             android:textSize="16sp"
@@ -662,6 +671,7 @@
             android:layout_height="43dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="casual"
             android:text="Ing. de Software "
             android:textAlignment="center"
             app:layout_constraintStart_toStartOf="parent"
@@ -673,8 +683,10 @@
             android:layout_height="35dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="casual"
             android:text="Proyecto Integrador"
             android:textAlignment="center"
+            android:textSize="13sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -684,8 +696,10 @@
             android:layout_height="35dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="22dp"
+            android:fontFamily="casual"
             android:text="Soporte de Software"
             android:textAlignment="center"
+            android:textSize="13sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -695,8 +709,10 @@
             android:layout_height="35dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="52dp"
+            android:fontFamily="casual"
             android:text="Probabilidad y Estadistica"
             android:textAlignment="center"
+            android:textSize="13sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -706,6 +722,7 @@
             android:layout_height="35dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="casual"
             android:text="Ingles VI"
             android:textAlignment="center"
             android:textSize="16sp"
@@ -715,9 +732,10 @@
         <TextView
             android:id="@+id/textView16"
             android:layout_width="89dp"
-            android:layout_height="35dp"
+            android:layout_height="39dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="casual"
             android:text="Promedio Parcial"
             android:textAlignment="center"
             app:layout_constraintStart_toStartOf="parent"
@@ -729,6 +747,7 @@
             android:layout_height="35dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="casual"
             android:text="Quimica IV"
             android:textAlignment="center"
             android:textSize="16sp"
@@ -741,6 +760,7 @@
             android:layout_height="35dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="10dp"
+            android:fontFamily="casual"
             android:text="OJyP IV"
             android:textAlignment="center"
             android:textSize="16sp"
@@ -758,6 +778,7 @@
             android:id="@+id/textView3"
             android:layout_width="86dp"
             android:layout_height="39dp"
+            android:fontFamily="casual"
             android:text="Promedio del Semestre"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/button"
@@ -765,4 +786,5 @@
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </ScrollView>
